@@ -18,7 +18,7 @@
         "Test": "NOP",
         "Objectid": null,
         "Specvalue": null,
-        "Timedelay": 1000,
+        "Timedelay": 1300,
         "Timetest": 0,
         "NoSkip": true
       },
@@ -37,7 +37,7 @@
         "Objectid": "0.0.0",
         "Specvalue": "150",
         "Timedelay": 0,
-        "Timetest": 5000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -53,9 +53,9 @@
         "No": "6",
         "Test": "MEAS",
         "Objectid": "0.1.0",
-        "Specvalue": "200",
+        "Specvalue": "300",
         "Timedelay": 0,
-        "Timetest": 5000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -73,7 +73,7 @@
         "Objectid": "0.2.0",
         "Specvalue": "200",
         "Timedelay": 0,
-        "Timetest": 5000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -91,7 +91,7 @@
         "Objectid": "0.3.0",
         "Specvalue": "200",
         "Timedelay": 0,
-        "Timetest": 5000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -107,9 +107,9 @@
         "No": "12",
         "Test": "MEAS",
         "Objectid": "0.4.0",
-        "Specvalue": "200",
+        "Specvalue": "150",
         "Timedelay": 0,
-        "Timetest": 5000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -125,7 +125,7 @@
         "No": "14",
         "Test": "MEAS",
         "Objectid": "0.5.0",
-        "Specvalue": "70",
+        "Specvalue": "50",
         "Timedelay": 0,
         "Timetest": 2000,
         "NoSkip": true
@@ -199,7 +199,7 @@
         "Objectid": "1.2.0",
         "Specvalue": "300",
         "Timedelay": 0,
-        "Timetest": 3000,
+        "Timetest": 2000,
         "NoSkip": true
       },
       {
@@ -227,6 +227,7 @@
     "ShouldStopAllWhenAnyFailedStep": true,
     "ShouldMainResetWhenPassTest": true,
     "ShouldMainResetWhenFailTest": false,
+    "ShouldBuzzerWhenFailTest": true,
     "ShouldSaveLog": false,
     "ShouldPrintQr": false,
     "UnitCode": "SV",

@@ -173,7 +173,9 @@
     "ShouldStopAllWhenAnyFailedStep": true,
     "ShouldMainResetWhenPassTest": true,
     "ShouldMainResetWhenFailTest": false,
+    "ShouldBuzzerWhenFailTest": true,
     "ShouldSaveLog": false,
+    "ShouldPrintQr": true,
     "UnitCode": "SV",
     "PartnerCode": "E17U",
     "CountryCode": "TH",
@@ -183,7 +185,7 @@
     "SerialNumber": 0
   },
   "Devices": {
-    "MicomCom1Port": "COM13",
+    "MicomCom1Port": "Unset",
     "MicomCom2Port": "COM10",
     "SystemComPort": "COM3",
     "Solenoid1ComPort": "COM7",
@@ -207,7 +209,7 @@
       "ListCAPSensor": []
     },
     "MicomData2": {
-      "Id": 1,
+      "Id": 2,
       "FrameLen": 10,
       "ListCAPSensor": [
         {

@@ -9,7 +9,7 @@
         "ListCAPSensor": []
       },
       "MicomData2": {
-        "Id": 1,
+        "Id": 2,
         "FrameLen": 10,
         "ListCAPSensor": [
           {
@@ -683,7 +683,7 @@
         "ListCAPSensor": []
       },
       "MicomData2": {
-        "Id": 1,
+        "Id": 2,
         "FrameLen": 10,
         "ListCAPSensor": [
           {
